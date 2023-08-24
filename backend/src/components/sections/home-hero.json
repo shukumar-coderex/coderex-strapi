@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_home_heroes",
+  "info": {
+    "displayName": "Home Hero",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonUrl": {
+      "type": "string"
+    },
+    "images": {
+      "displayName": "Home hero images",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.home-hero-images"
+    }
+  }
+}
