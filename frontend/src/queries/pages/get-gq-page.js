@@ -28,6 +28,9 @@ query GET_PAGE($uri: String) {
 		  }
 		  heading
 		}
+		Introduction {
+		  subheading
+		}
 	  }
   	}
 	}

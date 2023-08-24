@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "Home"
+    "displayName": "Home",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,26 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.home-hero"
+    },
+    "Inroduction": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.introduction"
+    },
+    "coderexworkprocess": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.coderexworkprocess"
+    },
+    "ourfeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.ourfeatures"
+    },
+    "clientShowcase": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.clientshowcase"
     }
   }
 }

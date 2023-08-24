@@ -15,12 +15,12 @@ class Introduction extends Component {
             <div>
                 <section className="cr-hire pos-relative">
                     <div className="hire-illustration-wrapper">
-                    {content.image &&
-                            <Image width='839' height='791' src={parse( content.image.sourceUrl )} className="img-fluid hire-illustration" alt="hire image"  />
-                    }
+                    {/* {content.image &&
+                            <Image width='839' height='791' src={parse( content.image.data.attributes.url )} className="img-fluid hire-illustration" alt="hire image"  />
+                    } */}
                     </div>
 
-                    <div className="cr-container">
+                    {/* <div className="cr-container">
                         <div className="cr-row">
                             <div className="cr-col">
                                 <div className="hire-content">
@@ -44,7 +44,7 @@ class Introduction extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
 
                 <style jsx>

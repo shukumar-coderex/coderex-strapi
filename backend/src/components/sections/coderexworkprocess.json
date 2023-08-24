@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_coderexworkprocesses",
+  "info": {
+    "displayName": "coderexworkprocess"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "steponetitle": {
+      "type": "string"
+    },
+    "steptwotitle": {
+      "type": "string"
+    },
+    "stepthreetitle": {
+      "type": "string"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "buttonurl": {
+      "type": "string"
+    }
+  }
+}

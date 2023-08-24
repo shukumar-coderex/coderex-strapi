@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_clientshowcases",
+  "info": {
+    "displayName": "clientshowcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectiontitle": {
+      "type": "string"
+    },
+    "clients": {
+      "displayName": "clients",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.clients"
+    }
+  }
+}

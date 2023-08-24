@@ -21,7 +21,7 @@ export default function Home( { data } ) {
   let { page, siteCta, socialLinks } = data,
     {
       hero,
-      // introduction,
+      Introduction,
       // benefits,
       // coderexWorkProcess,
       // ourFeatures,
@@ -32,9 +32,11 @@ export default function Home( { data } ) {
       // pricing,
       // providedServices,
     } = page.home;
+    console.log(Introduction)
   return (
     <div className={'content-wrapper'}>
       <HomeHero content={hero} socialLinks={socialLinks} />
+      {/* <Introduction content={Introduction} /> */}
     </div>
     // <Layout data={data}>
     //   <HomeHero content={hero} socialLinks={socialLinks} />
